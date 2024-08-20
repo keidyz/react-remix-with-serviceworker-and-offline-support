@@ -1,6 +1,14 @@
 {
   "name": "react-remix-serviceworker-and-offline-support",
   "type": "module",
+  "description": "A sample app showing how to implement simple offline support to remix apps",
+  "homepage": "https://github.com/keidyz/react-remix-with-serviceworker-and-offline-support",
+  "author": "Keisha Dy Zapra <kzapra@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keidyz/react-remix-with-serviceworker-and-offline-support"
+  },
   "scripts": {
     "build": "remix vite:build",
     "dev": "npm run build && remix vite:dev",
@@ -35,6 +43,16 @@
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.2.1"
   },
+  "keywords": [
+    "simple",
+    "offline",
+    "remix",
+    "react",
+    "serviceworker",
+    "offline-support",
+    "easy",
+    "node"
+  ],
   "engines": {
     "node": ">=20.0.0"
   }
